@@ -1,0 +1,183 @@
+{
+  "contractName": "ViralToken2",
+  "abi": [
+    {
+      "inputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/homi/Development/Production/Blockchain/ViralToken1/contracts/ViralToken2.sol\":\"ViralToken2\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/homi/Development/Production/Blockchain/ViralToken1/contracts/ViralToken2.sol\":{\"keccak256\":\"0x24eac514336592776d1540b97d1f743af689c9b59ac2adce8ed81ced6bf23f4c\",\"urls\":[\"bzz-raw://1d1b9e003d275b6e27da1c29b22a06fd90b417c4654e431cb0eab2e71877101e\",\"dweb:/ipfs/QmUdYBU7Moi8HXwspiXJVKLaDdtJg3qKWdja1ykw88WjEV\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603e80601d6000396000f3fe6080604052600080fdfea265627a7a72315820f36ed263d3ca57a083163ba078f71e07bc35b9300b849079a7bb714a97ee883664736f6c63430005100032",
+  "deployedBytecode": "0x6080604052600080fdfea265627a7a72315820f36ed263d3ca57a083163ba078f71e07bc35b9300b849079a7bb714a97ee883664736f6c63430005100032",
+  "sourceMap": "66:53:1:-;;;91:26;8:9:-1;5:2;;;30:1;27;20:12;5:2;91:26:1;66:53;;;;;;",
+  "deployedSourceMap": "66:53:1:-;;;;;",
+  "source": "//SPDX-License-Identifier: MIT\npragma solidity >= 0.5.0 < 0.7.0;\n\ncontract ViralToken2 {\n  constructor() public {\n  }\n}\n",
+  "sourcePath": "/Users/homi/Development/Production/Blockchain/ViralToken1/contracts/ViralToken2.sol",
+  "ast": {
+    "absolutePath": "/Users/homi/Development/Production/Blockchain/ViralToken1/contracts/ViralToken2.sol",
+    "exportedSymbols": {
+      "ViralToken2": [
+        39
+      ]
+    },
+    "id": 40,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 34,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.5",
+          ".0",
+          "<",
+          "0.7",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "31:33:1"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 39,
+        "linearizedBaseContracts": [
+          39
+        ],
+        "name": "ViralToken2",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 37,
+              "nodeType": "Block",
+              "src": "112:5:1",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 38,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 35,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "102:2:1"
+            },
+            "returnParameters": {
+              "id": 36,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "112:0:1"
+            },
+            "scope": 39,
+            "src": "91:26:1",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 40,
+        "src": "66:53:1"
+      }
+    ],
+    "src": "31:89:1"
+  },
+  "legacyAST": {
+    "absolutePath": "/Users/homi/Development/Production/Blockchain/ViralToken1/contracts/ViralToken2.sol",
+    "exportedSymbols": {
+      "ViralToken2": [
+        39
+      ]
+    },
+    "id": 40,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 34,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.5",
+          ".0",
+          "<",
+          "0.7",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "31:33:1"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 39,
+        "linearizedBaseContracts": [
+          39
+        ],
+        "name": "ViralToken2",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 37,
+              "nodeType": "Block",
+              "src": "112:5:1",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 38,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 35,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "102:2:1"
+            },
+            "returnParameters": {
+              "id": 36,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "112:0:1"
+            },
+            "scope": 39,
+            "src": "91:26:1",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 40,
+        "src": "66:53:1"
+      }
+    ],
+    "src": "31:89:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.2.3",
+  "updatedAt": "2021-04-27T22:24:23.863Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
